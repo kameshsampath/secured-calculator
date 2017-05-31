@@ -1,0 +1,40 @@
+= Secured Calculator
+
+A simple vert.x application that runs a simple calculator in secured mode, this could be used for quickly testing connectivity
+to https application.  e.g. calling https services from Java or other applications
+
+
+= Starting application
+
+Run `./mvnw clean install` to have the application installed locally, this not required to run the application
+but useful to download the dependencies
+
+== Foreground
+
+`./mvnw vertx:run` - to run the application in foreground
+
+To stop the application run CMD + C (OS X) or Ctrl + C (linux/windows)
+
+== Background
+
+`./mvnw vertx:start` - to run the application in background
+
+
+To stop the application running in daemon mode use `./mvnw vertx:stop`
+
+== License
+
+Copyright 2017 Kamesh Sampath<kamesh.sampath@hotmail.com>
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
